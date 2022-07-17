@@ -1,0 +1,168 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+    margin: 0;
+}
+
+header {
+    height: 69px;
+    background-color:black;
+    border-bottom: 1px solid seashell;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+main {
+    opacity: 0.85;
+}
+
+footer {
+    text-align: left;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+#nav-links li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+a {
+    text-decoration: underline;
+    color: seashell
+}
+
+a:visited {
+    color: rgb(188, 100, 223);
+}
+
+
+a:hover {
+    color: rgba(255, 245, 238, 0.603);
+    text-decoration: none;
+}
+
+a:active {
+    color: rgba(255, 245, 238, 0.226);
+}
+
+
+.logo {
+    height: 50px;
+    margin: 0 10px;
+}
+
+#section-one {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 70px;
+}
+
+.mission-bg {
+    background-image: url(img-mission-background.jpg);
+    height: 700px;
+    width: 1200px;
+    display: flex;
+    align-items: center;
+}
+
+.mission-desc {
+    background-color: black;
+    height: 140px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.mission-desc h2 {
+    margin: 10px;
+}
+
+.mission-desc h4 {
+    margin-bottom: 10;
+}
+
+
+#section-two {
+    height: 800px;
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tea-month {
+    width: 1000px;
+}
+
+#teas img {
+    height: 200px;
+    width: 300px;
+}
+
+#teas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.tea {
+    margin: 0px 14px;
+}
+
+.tea h4 {
+    margin-top: 10px;
+}
+
+#section-three {
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.locations-bg {
+    background-image: url(img-locations-background.jpg);
+    background-position: center;
+    height: 500px;
+    width: 1200px;
+    opacity: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.locations-bg h2 {
+    margin-bottom: 15px;
+}
+
+#location-boxes {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.box {
+    background-color: black;
+    width: 300px;
+    margin: 0 40px;
+    opacity: 1;
+}
+
+
+.contacts {
+    height: 200px;
+    width: 1200px;
+}
+
+
